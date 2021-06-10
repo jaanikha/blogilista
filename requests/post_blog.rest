@@ -1,0 +1,29 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+
+{
+    "title": "asd",
+    "author": "asdasd",
+    "url": "asdasdasd",
+    "likes": 25
+}
+
+###
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+
+{
+    "author": "asdasd",
+    "url": "asdasdasd",
+    "likes": 25
+}
+
+###
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+
+{
+    "title": "asd",
+    "author": "asdasd",
+    "likes": 25
+}
