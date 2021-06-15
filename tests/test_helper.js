@@ -15,21 +15,14 @@ const initialBlogs = [
   },
 ]
 
-/*
-const nonExistingId = async () => {
-    const note = new Note({ content: 'willremovethissoon', date: new Date() })
-    await note.save()
-    await note.remove()
-  
-    return note._id.toString()
+const initialUsers = [
+  {
+    username: 'Masa',
+    name: 'Matti',
+    password: '1234567'
   }
-  
-const notesInDb = async () => {
-    const notes = await Note.find({})
-    return notes.map(note => note.toJSON())
-}
-*/
+]
 
 module.exports = {
-    initialBlogs
+    initialBlogs, initialUsers
 }

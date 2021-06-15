@@ -1,5 +1,6 @@
 POST http://localhost:3003/api/blogs 
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc2EiLCJpZCI6IjYwYzVlMWE0OWExNWRlMmU4YzA1YTliZCIsImlhdCI6MTYyMzU4NTA4N30.rwTSoZJvc5TJ49HV9xNARXoHS2S5SwgQU-3Vdsoj8SA
 
 {
     "title": "asd",
@@ -9,8 +10,23 @@ Content-Type: application/json
 }
 
 ###
+
 POST http://localhost:3003/api/blogs 
 Content-Type: application/json
+Authorization: bearer InR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc2EiLCJpZCI6IjYwYzVlMWE0OWExNWRlMmU4YzA1YTliZCIsImlhdCI6MTYyMzU4NTA4N30.rwTSoZJvc5TJ49HV9xNARXoHS2S5SwgQU-3Vdsoj8SA
+
+{
+    "title": "wrongToken",
+    "author": "asdasd",
+    "url": "asdasdasd",
+    "likes": 25
+}
+
+###
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc2EiLCJpZCI6IjYwYzVlMWE0OWExNWRlMmU4YzA1YTliZCIsImlhdCI6MTYyMzU4NTA4N30.rwTSoZJvc5TJ49HV9xNARXoHS2S5SwgQU-3Vdsoj8SA
+
 
 {
     "author": "asdasd",
@@ -21,6 +37,8 @@ Content-Type: application/json
 ###
 POST http://localhost:3003/api/blogs 
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc2EiLCJpZCI6IjYwYzVlMWE0OWExNWRlMmU4YzA1YTliZCIsImlhdCI6MTYyMzU4NTA4N30.rwTSoZJvc5TJ49HV9xNARXoHS2S5SwgQU-3Vdsoj8SA
+
 
 {
     "title": "asd",
